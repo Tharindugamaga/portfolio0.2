@@ -26,7 +26,7 @@ const experience = [
     title: "My Experience",
     description: "I have worked on diverse projects ranging from small business websites to enterprise-grade applications. My roles include frontend & backend development, UI/UX improvements, and system optimization.",
     items: [
-      { company: "ServerClub", role: "Web Developer", duration: "Jan 2022 - Present" },
+      { company: "ServerClub", role: "Web Developer", duration: "July 2025 - Present" },
       { company: "Web Design Studio", role: "Frontend Developer", duration: "Summer 2021" },
       { company: "Frontend Masters", role: "Frontend Developer", duration: "2022 - 2023" },
       { company: "Freelance", role: "Full-Stack Developer", duration: "2020 - Present" },
