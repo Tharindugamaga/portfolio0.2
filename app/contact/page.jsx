@@ -13,27 +13,13 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-
 import { motion } from "framer-motion";
 
 const info = [
-  {
-    icon: <FaPhoneAlt />,
-    title: "Phone",
-    Description: "0787962180",
-  },
-  {
-    icon: <FaEnvelope />,
-    title: "Email",
-    Description: "tharindupushpa802@gmail.com",
-  },
-  {
-    icon: <FaMapMarkerAlt />,
-    title: "Address",
-    Description: "1st Lane 74, Badulupitiya, Badulla",
-  },
+  { icon: <FaPhoneAlt />, title: "Phone", Description: "0787962180" },
+  { icon: <FaEnvelope />, title: "Email", Description: "tharindupushpa802@gmail.com" },
+  { icon: <FaMapMarkerAlt />, title: "Address", Description: "1st Lane 74, Badulupitiya, Badulla" },
 ];
 
 const Contact = () => {
@@ -48,7 +34,7 @@ const Contact = () => {
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-10 xl:gap-[30px]">
-          {/* form */}
+          {/* Form */}
           <div className="w-full xl:w-[54%] order-2 xl:order-none">
             <form className="flex flex-col gap-6 p-6 sm:p-8 bg-[#27272c] rounded-xl">
               <h3 className="text-2xl sm:text-3xl md:text-4xl text-accent font-bold">
@@ -69,8 +55,8 @@ const Contact = () => {
                 <Input type="text" placeholder="Phone Number" />
               </div>
 
-              {/* select */}
-         <Select>
+              {/* Select */}
+              <Select>
   <SelectTrigger className="w-full bg-black text-white">
     <SelectValue placeholder="Select a service" className="text-white" />
   </SelectTrigger>
@@ -85,13 +71,13 @@ const Contact = () => {
 </Select>
 
 
-              {/* textarea */}
+              {/* Textarea */}
               <Textarea
                 className="h-[180px] sm:h-[200px]"
                 placeholder="Type your message here..."
               />
 
-              {/* button */}
+              {/* Button */}
               <Button size="md" className="max-w-[200px]">
                 Send Message
               </Button>
