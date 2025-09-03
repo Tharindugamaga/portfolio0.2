@@ -70,19 +70,20 @@ const Contact = () => {
               </div>
 
               {/* select */}
-              <Select>
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select a service" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="web">Web Development</SelectItem>
-                    <SelectItem value="mobile">Mobile App Development</SelectItem>
-                    <SelectItem value="mobile">UI UX Design</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select>
+             <Select>
+  <SelectTrigger className="w-full text-black">
+    <SelectValue placeholder="Select a service" />
+  </SelectTrigger>
+  <SelectContent>
+    <SelectGroup>
+      <SelectLabel className="text-black">Select a service</SelectLabel>
+      <SelectItem value="web" className="text-black">Web Development</SelectItem>
+      <SelectItem value="mobile" className="text-black">Mobile App Development</SelectItem>
+      <SelectItem value="uiux" className="text-black">UI UX Design</SelectItem>
+    </SelectGroup>
+  </SelectContent>
+</Select>
+
 
               {/* textarea */}
               <Textarea
