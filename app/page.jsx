@@ -15,7 +15,7 @@ const Home = () => {
         <h1 className='h1 mb-6'>
           Hello I&apos;m <br /><span className='text-accent'>Tharindu Gamage</span>
         </h1>
-        <p className='max-w-[500px] mb-9 text-white/80'>I’m Tharindu Gamaga, a final-year HNDIT student skilled in programming, web development, and software engineering, passionate about building real-world IT solutions</p>
+        <p className='max-w-[500px] mb-9 text-white/80'>I’m Tharindu Gamaga, a final-year HNDIT student with hands-on experience in programming, web development, and software engineering. I am passionate about building real-world IT solutions and have successfully completed my HND along with an internship where I gained practical experience in applying my skills to real projects.</p>
     {/* btn and social */}
       <div className='flex flex-col xl:flex-row  items-center gap-8'>
      <Button
