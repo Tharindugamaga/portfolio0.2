@@ -20,7 +20,7 @@ const about = {
     { fieldName: "Experience", fieldValue: "3+ Years" },
     { fieldName: "Email", fieldValue: "tharindupushpa802@gmail.com" },
     { fieldName: "Languages", fieldValue: "English, Sinhala" },
-    { fieldName: "Location", fieldValue: "Colombo, Sri Lanka" },
+    { fieldName: "Location", fieldValue: "Badulla, Sri Lanka" },
     { fieldName: "Freelance", fieldValue: "Available" },
   ],
 };
@@ -32,7 +32,7 @@ const experience = [
       "I have worked on diverse projects ranging from small business websites to enterprise-grade applications. My roles include frontend & backend development, UI/UX improvements, and system optimization.",
     items: [
       { company: "ServerClub", role: "Web Developer", duration: "July 2025 - Present" },
-      { company: "Web Design Studio", role: "Frontend Developer", duration: "Summer 2021" },
+      { company: "Web Design Studio", role: "Frontend Developer", duration: "2022-2024" },
       { company: "Frontend Masters", role: "Frontend Developer", duration: "2022 - 2023" },
       { company: "Freelance", role: "Full-Stack Developer", duration: "2020 - Present" },
     ],
@@ -45,12 +45,12 @@ const education = [
     description:
       "My academic background includes Information Technology and Software Engineering studies along with certifications and self-learning projects.",
     items: [
-      { Institution: "HNDIT - Information Technology", position: "Undergraduate Student", duration: "2021 - 2023" },
-      { Institution: "University of Moratuwa - Full Stack Web Dev", position: "Certificate Program", duration: "2023 - 2024" },
+      { Institution: "HNDIT - Information Technology", position: "Undergraduate Student", duration: "2022 - 2025" },
+      { Institution: "University of Moratuwa - Full Stack Web Dev", position: "Certificate Program", duration: "2025 - present" },
       { Institution: "Udemy & FreeCodeCamp", position: "Online Courses (React, Node.js)", duration: "2020 - Present" },
-      { Institution: "Self Learning", position: "Next.js, Flutter", duration: "2020 - Present" },
+      { Institution: "Self Learning", position: "Next.js, Flutter", duration: "2024 - Present" },
       { Institution: "Freelance Projects", position: "Web Developer", duration: "Ongoing" },
-      { Institution: "VTA", position: "Computer Hardware & Networking", duration: "Jan 2019 - Jul 2020" },
+      { Institution: "VTA", position: "Computer Hardware & Networking", duration: "Jan 2019 - Jul 2019" },
     ],
   },
 ];
